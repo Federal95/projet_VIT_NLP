@@ -13,6 +13,7 @@ def normalize(text):
     text = text.replace("ë", "en")
     text = re.sub(r"(?<=[a-z])R(?=[a-z])", "r", text)
     text = re.sub(r"(?<=[a-z])S(?=[a-z])", "s", text)
+    text = re.sub(r"(\w)-\n(\w)", r"\1\2", text)
     return text
 
 # ── Test 1 : Normalisation s long ───────────────────────────────────────────
@@ -71,3 +72,9 @@ def test_normalisation_ne_degrade_pas():
     # Aucun caractère médiéval ne doit rester
     assert "ſ" not in normalise
     assert "&" not in normalise
+
+# ── Test 7 : Normalisation coupures de ligne ────────────────────────────────
+def test_normalisation_coupures_ligne():
+    """La normalisation recolle les mots coupés en fin de ligne"""
+    assert normalize("roy-\naume") == "royaume"
+    assert normalize("mot-\nmot") == "motmot"
