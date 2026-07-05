@@ -1,0 +1,42 @@
+[
+  {
+    "word": "Charles VIII",
+    "entity_group": "PER",
+    "score": 0.99
+  },
+  {
+    "word": "Paris",
+    "entity_group": "LOC",
+    "score": 0.91
+  },
+  {
+    "word": "Orleans",
+    "entity_group": "LOC",
+    "score": 0.88
+  },
+  {
+    "word": "Rapello",
+    "entity_group": "LOC",
+    "score": 0.85
+  },
+  {
+    "word": "parlement",
+    "entity_group": "ORG",
+    "score": 0.82
+  },
+  {
+    "word": "comptes",
+    "entity_group": "ORG",
+    "score": 0.79
+  },
+  {
+    "word": "septembre",
+    "entity_group": "DATE",
+    "score": 0.9
+  },
+  {
+    "word": "mil CCCC IIII vingt et quatorze",
+    "entity_group": "DATE",
+    "score": 0.87
+  }
+]

@@ -1,0 +1,15 @@
+venv/
+data/images/
+data/lines/
+data/processed/
+data/bilevel/
+data/raw/
+models/vit_pretrained/
+models/kraken/
+models/bertrade/
+models/camembert/
+models/checkpoints/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
