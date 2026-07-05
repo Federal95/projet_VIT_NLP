@@ -20,6 +20,21 @@
     "score": 0.85
   },
   {
+    "word": "Gennes",
+    "entity_group": "LOC",
+    "score": 0.83
+  },
+  {
+    "word": "Turin",
+    "entity_group": "LOC",
+    "score": 0.81
+  },
+  {
+    "word": "Sauoye",
+    "entity_group": "LOC",
+    "score": 0.79
+  },
+  {
     "word": "parlement",
     "entity_group": "ORG",
     "score": 0.82
